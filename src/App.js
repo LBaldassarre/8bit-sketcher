@@ -1,9 +1,10 @@
 import './App.css';
+import Drawboard from './pages/Drawboard/Drawboard'
 
 function App() {
   return (
     <div className="App">
-      <h1>Foolder Structer Set UP</h1>
+      <Drawboard/>
     </div>
   );
 }
