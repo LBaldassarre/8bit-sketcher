@@ -1,10 +1,8 @@
-import Nav from '../../components/Nav/Nav'
 import './Drawboard.css'
 
 function Drawboard() {
     return (
-      <div className="App">
-        <Nav/>
+      <div>
         <h1>Drawboard</h1>
       </div>
     );
