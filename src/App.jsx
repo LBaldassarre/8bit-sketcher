@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import './variables.css';
 import './App.css';
 import Nav from './components/Nav/Nav';
 import Drawboard from './pages/Drawboard/Drawboard';
