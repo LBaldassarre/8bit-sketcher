@@ -1,10 +1,9 @@
 import './Drawboard.css'
+import Nav from '../../components/Nav/Nav';
 
 function Drawboard() {
     return (
-      <div>
-        <h1>Drawboard</h1>
-      </div>
+      <Nav />
     );
   }
   
