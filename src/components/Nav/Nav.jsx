@@ -17,7 +17,7 @@ function Nav() {
           <ul className="nav__list grid">
               <li className="nav__item">
                 <NavLink className="nav__link" to="/">
-                  <i className="uil uil-file-alt nav__icon"></i> Drawboard
+                  <i className="uil uil-palette nav__icon"></i> Drawboard
                 </NavLink>
               </li>
               <li className="nav__item">
