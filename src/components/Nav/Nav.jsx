@@ -11,18 +11,18 @@ function Nav() {
     <header className="header" id="header">
       <nav className="nav container">
 
-        <Link className="nav__logo" to="/"> 8Bit Sketch </Link>
+        <Link className="nav__logo" to="/"> Your Math </Link>
 
         <div className={menuOpen ? "nav__menu show__menu" : "nav__menu"} id="nav-menu">
           <ul className="nav__list grid">
               <li className="nav__item">
                 <NavLink className="nav__link" to="/">
-                  <i className="uil uil-palette nav__icon"></i> Drawboard
+                  <i className="uil uil-calculator nav__icon"></i> Calculate
                 </NavLink>
               </li>
               <li className="nav__item">
-                <NavLink className="nav__link" to="/gallery">
-                  <i className="uil uil-estate nav__icon"></i> Gallery
+                <NavLink className="nav__link" to="/functions">
+                  <i className="uil uil-atom nav__icon"></i> Functions
                 </NavLink>
               </li>
               <li className="nav__item">

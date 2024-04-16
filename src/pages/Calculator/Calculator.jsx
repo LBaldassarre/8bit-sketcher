@@ -1,13 +1,13 @@
-import './Account.css'
+import './Calculator.css'
 import Nav from '../../components/Nav/Nav';
 
-function Account() {
+function Calculator() {
     return (
       <div>
         <Nav />
-        <h1>Account</h1>
+        <h1>Calculator</h1>
       </div>
     );
   }
   
-  export default Account;
+  export default Calculator;

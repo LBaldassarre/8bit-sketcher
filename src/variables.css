@@ -171,9 +171,15 @@ img {
 
 .header {
     width: 100%;
+    height: var(--mb-3);
     position: fixed;
     bottom: 0;
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
+}
+
+h1 {
+    margin-top: var(--mb-3);
+    padding: var(--mb-0-5);
 }

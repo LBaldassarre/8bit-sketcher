@@ -1,13 +1,13 @@
-import './Account.css'
+import './Functions.css'
 import Nav from '../../components/Nav/Nav';
 
-function Account() {
+function Functions() {
     return (
       <div>
         <Nav />
-        <h1>Account</h1>
+        <h1>Functions</h1>
       </div>
     );
   }
   
-  export default Account;
+  export default Functions;
