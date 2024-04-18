@@ -17,6 +17,11 @@ function Nav() {
           <ul className="nav__list grid">
               <li className="nav__item">
                 <NavLink className="nav__link" to="/">
+                  <i className="uil uil-estate nav__icon"></i> Home
+                </NavLink>
+              </li>
+              <li className="nav__item">
+                <NavLink className="nav__link" to="/calculator">
                   <i className="uil uil-calculator nav__icon"></i> Calculate
                 </NavLink>
               </li>

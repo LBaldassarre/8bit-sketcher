@@ -55,7 +55,8 @@
 }
 
 .nav__list{
-    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .nav__link{
@@ -92,7 +93,7 @@
     bottom: 0;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 968px) {
     
     header {
         top: 0;
