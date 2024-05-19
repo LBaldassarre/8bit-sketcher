@@ -1,6 +1,40 @@
 @import '../../variables.css';
 
 .function_selector {
-    position: absolute;
-    transform: translateX(-100vw);
+    position: fixed;
+    right: 0;
+    width: 70vw;
+    background-color: var(--container-color);
+    border-radius: .4rem;
+    box-shadow: -1px 0 var(--first-color);
+    transform: translateX(0);
+    display: flex;
+    flex-direction: column;
+    height: 94vh;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+    padding-left: 1rem;
+}
+
+.pane_btn_open {
+    position: fixed;
+    right: -5px;
+    bottom: 20%;
+    transform: rotate(180deg);
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: var(--first-color);
+    opacity: .8;
+    padding: 0 .3rem;
+    border-radius: .4rem;
+}
+
+.pane_btn_close {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: var(--first-color);
+    opacity: .8;
+    padding: 0 .3rem;
+    border-radius: .4rem;
 }
