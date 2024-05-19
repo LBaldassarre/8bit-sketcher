@@ -1,1 +1,6 @@
 @import '../../variables.css';
+
+.function_selector {
+    position: absolute;
+    transform: translateX(-100vw);
+}
