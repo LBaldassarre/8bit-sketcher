@@ -1,11 +1,16 @@
+import React, { useState } from "react";
+
 import './Calculator.css'
 import Nav from '../../components/Nav/Nav';
 
 function Calculator() {
+
+  const [funcSelOpen, setFuncSelOpen] = useState(false);
+
     return (
       <div>
         <Nav />
-        <div className='function_selector'>
+        <div className= {funcSelOpen ? 'function_selector fs_open' : 'function_selector'}>
             <ul className='function_list'>
               <li className='function'>Function 1</li>
               <li className='function'>Function 2</li>
@@ -19,10 +24,10 @@ function Calculator() {
               <li className='function'>Function 10</li>
             </ul>
             <div>
-              <i class="uil uil-times pane_btn_close"></i>
+            <span onClick={() => setFuncSelOpen(!funcSelOpen)}><i className = {funcSelOpen ? "uil uil-times pane_btn_close" : "uil uil-times pane_btn_close display_none"}></i></span>
             </div>
         </div>
-        <i class="uil uil-angle-right pane_btn_open"></i>
+        <span onClick={() => setFuncSelOpen(!funcSelOpen)}><i className= {!funcSelOpen ? "uil uil-angle-right pane_btn_open" : "uil uil-angle-right pane_btn_open display_none"}></i></span>
         <main className='section container'>
           <h2 className='calculation_title'>Function 1</h2>
           <h3 className='calculation_description'>Description</h3>
