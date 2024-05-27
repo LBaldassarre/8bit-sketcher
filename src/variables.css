@@ -136,6 +136,23 @@ img {
     height: auto;
 }
 
+.button{
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: none;
+    font-weight: var(--font-medium);
+    font-size: var(--normal-font-size);
+}
+
+.button:hover{
+    background-color: var(--first-color-alt);
+}
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
     padding: 2rem 0 4rem;

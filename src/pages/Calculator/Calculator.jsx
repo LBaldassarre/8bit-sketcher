@@ -32,22 +32,21 @@ function Calculator() {
           <h2 className='calculation_title'>Function 1</h2>
           <h3 className='calculation_description'>Description</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quas error veritatis dolorem iure. Exercitationem asperiores reprehenderit, sunt numquam et explicabo. Illo, corporis reprehenderit fugit incidunt voluptatum eveniet possimus. Nostrum.</p>
-          <ul className='variable_list'>
-            <li className='variable'>a: <input type="text" /></li>
-            <li className='variable'>b: <input type="text" /></li>
-            <li className='variable'>c: <input type="text" /></li>
-            <li className='variable'>b: <input type="text" /></li>
-            <li className='variable'>d: <input type="text" /></li>
-            <li className='variable'>e: <input type="text" /></li>
-            <li className='variable'>f: <input type="text" /></li>
+          <ul className='variable_list container'>
+            <li className='variable'><span>a:</span> <input type="text" /></li>
+            <li className='variable'><span>b:</span> <input type="text" /></li>
+            <li className='variable'><span>c:</span> <input type="text" /></li>
+            <li className='variable'><span>b:</span> <input type="text" /></li>
+            <li className='variable'><span>d:</span> <input type="text" /></li>
+            <li className='variable'><span>e:</span> <input type="text" /></li>
           </ul>
           <div className='buttons'>
-            <button className='btn'>Reset</button>
-            <button className='btn'>Calculate</button>
+            <button className='button'>Reset</button>
+            <button className='button'>Calculate</button>
           </div>
-          <div className='result'>
+          <h3 className='result'>
             Result: 100.004
-          </div>
+          </h3>
         </main>
       </div>
     );
